@@ -25,7 +25,7 @@ endif
 " Extend python.vim's syntax for use with Snakemake
 runtime! syntax/python.vim
 
-syn keyword pythonStatement	include workdir onsuccess onerror
+syn keyword pythonStatement	include workdir onstart onsuccess onerror
 syn keyword pythonStatement	ruleorder localrules configfile
 syn keyword pythonStatement	touch protected temp wrapper
 syn keyword pythonStatement	dynamic ancient directory
