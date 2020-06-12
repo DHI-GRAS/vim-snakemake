@@ -4,4 +4,4 @@ endif
 
 runtime! indent/python.vim
 
-set sw=2 sts=2 et
+set expandtab shiftwidth=4 softtabstop=4 tabstop=4

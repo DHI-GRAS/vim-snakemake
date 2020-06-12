@@ -42,5 +42,3 @@ syn match pythonFunction
 syn sync match pythonSync grouphere NONE "^\s*\%(rule\|subworkflow\|checkpoint\)\s\+\h\w*\s*"
 
 let b:current_syntax = "snakemake"
-
-vim:set expandtab shiftwidth=4 softtabstop=4 tabstop=4
